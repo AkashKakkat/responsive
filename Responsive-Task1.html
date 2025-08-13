@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        /* .container{
+            width: 100%;
+            height: 667px;
+            display: flex;
+            flex-direction: column;
+           
+        } */
+        .header{
+            
+            width: 100%;
+            height: 100px;
+            background-color:white;
+            
+        }
+        ul li{
+           
+            float: left;
+            padding: 5px;
+            
+            
+            
+           
+        }
+        .header ul li{
+            display: none;
+        }
+        
+       
+       
+
+        .content{
+            /* display: flex; */
+            width: 100%;
+
+            height: 320px;
+            background-color:rgb(72 72 72);
+        }
+        .content-p{
+            color: white;
+            font-size: xx-large;
+            padding-left: 70px;
+            padding-top: 20px;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 247;
+            background-color:white;
+        }
+    
+
+
+        @media screen and (min-width:768px) {
+            .header{
+                background-color: white;
+                height:138px ;
+
+            }
+            .content{
+                background-color: rgb(72 72 72);
+                height: 775px;
+            }
+            .content-p{
+            color: white;
+            font-size: 72px;
+            padding-left: 70px;
+            padding-top: 80px;
+            }
+            .content-btn{
+                width: 165px;
+                height: 58px;
+                position: relative;
+                bottom: 75px;
+                left: 4px;
+                border: none;
+                background-color: white;
+                color:rgb(72 72 72) ;
+            }
+
+            .footer{
+                background-color: white;
+                flex-direction: row;
+                height: 233px;
+                
+            }
+            
+        }
+
+
+        
+        /* @media screen and (min-width:1024px) {
+            .header{
+                background-color: aqua;
+                height:220px ;
+
+            }
+            .content{
+                background-color: blue;
+                height: 1285px;
+            }
+            .content-p{
+            color: white;
+            font-size: 72px;
+            padding-left: 115px;
+            padding-top: 295px;
+            }
+            .content-btn{
+                width: 165px;
+                height: 58px;
+                position: relative;
+                bottom: 75px;
+                left: 4px;
+                border: none;
+                background-color: white;
+                color:rgb(72 72 72) ;
+            }
+
+            .footer{
+                background-color: greenyellow;
+                flex-direction: row;
+                height: 489px;
+                
+            }
+            
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <ul type="none">
+                <li>PORTFOLIO</li>
+                <li>SERVICES</li>
+                <li>ABOUT ME</li>
+                <li>BLOG</li>
+                <li><button class="header-btn" type="button">CONTACT US</button></li>
+            </ul>
+        </div>
+        <div class="content"> <p class="content-p">Mobile and Web <br> Apps Developed <br> Right the First <br> Time. <br> <br><button class="content-btn" type="button" >Get in Touch</button></p></div>
+
+
+
+        <div class="footer">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quas. ipsum dolor sit amet consectetur adipisicing elit. Magnam, illum! ipsum dolor sit amet, consectetur adipisicing elit. Amet, dolore.</p><br><br><br>
+
+            
+           
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quasi. ipsum, dolor sit amet consectetur adipisicing elit. Delectus, vitae. ipsum dolor sit amet, consectetur adipisicing elit. Amet, dolore.</p><br><br><br>
+
+            
+            
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, harum!, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, iure. ipsum dolor sit amet, consectetur adipisicing elit. Amet, dolore.</p><br><br><br>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sint. ipsum dolor sit amet consectetur adipisicing elit. Ut, blanditiis! ipsum dolor sit amet, consectetur adipisicing elit. Amet, dolore.</p><br><br><br>
+
+            
+        </div>
+    </div>
+</body>
+</html>
